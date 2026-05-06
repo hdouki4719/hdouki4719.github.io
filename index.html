@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Hajar Douki — CV </title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome (icônes) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Votre fichier CSS -->
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- jQuery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
+</head>
+<body>
+
+  <!-- Décoration d'arrière-plan  -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- NAVIGATION -->
+  <nav>
+    
+    <div class="nav-logo">H<span>.</span>D</div>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#formation">Formation</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-burger" id="burger"><i class="fa-solid fa-bars"></i></button>
+  </nav>
+
+  <!--SECTION 1 — HERO (EN-TÊTE) -->
+  <section id="hero">
+    <div class="hero-text">
+
+      <p class="hero-eyebrow">// Disponible pour stage &amp; alternance</p>
+
+      <h1 class="hero-name">
+        Hajar
+        <strong>Douki</strong>
+      </h1>
+
+      <p class="hero-title">Étudiante en deuxième année Science Informatique</p>
+
+     
+      <div class="hero-contacts">
+        <a href="doukihajar11@gmail.com" class="hero-contact-item">
+          <i class="fa-solid fa-envelope"></i> doukihajar11@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/hajar-douki-027500374?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" class="hero-contact-item">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/hdouki4719" target="_blank" class="hero-contact-item">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+
+      <a href="#projects" class="hero-cta">Voir mes projets</a>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-deco"></div>
+      <div class="hero-photo-frame">
+      
+          <img src="pic.jpeg" alt="ma photo">
+          <rect width="280" height="340" fill="#2d0b52"/>
+          <circle cx="140" cy="120" r="65" fill="#4a1175"/>
+          <ellipse cx="140" cy="310" rx="110" ry="85" fill="#4a1175"/>
+          <circle cx="140" cy="110" r="48" fill="#7c3aed" opacity="0.6"/>
+          <text x="140" y="185" text-anchor="middle" fill="#c084fc" font-size="14" font-family="DM Sans">Photo</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SECTION 2 — À PROPOS -->
+  <section id="about">
+    <p class="section-label">// 01 — Qui suis-je</p>
+    <h2 class="section-title">À <em>propos</em> de moi</h2>
+
+    <div class="about-grid">
+      <div class="about-bio">
+        <p>
+          Je suis <strong>Hajar Douki</strong>, étudiante passionnée en deuxième année de
+          Licence en Science Informatique. Curieuse et rigoureuse, je m'intéresse
+          particulièrement au développement web, à l'algorithmique et à l'intelligence artificielle.
+        </p>
+        <p>
+          Mon parcours m'a permis de développer de solides bases en mathémathique, programmation
+          (Python, JavaScript,) ainsi qu'une appétence réelle pour la conception
+          d'interfaces élégantes et fonctionnelles.
+        </p>
+        <p>
+          En dehors des cours, j'aime explorer des projets personnels, contribuer à
+          des hackathons et m'initier aux nouvelles technologies. Mon objectif est d'intégrer
+          une entreprise innovante où je pourrai allier créativité et rigueur technique.
+        </p>
+
+      </div>
+
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="stat-number">2+</div>
+          <div class="stat-label">Ans d'études info</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">3+</div>
+          <div class="stat-label">Projets réalisés</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">3</div>
+          <div class="stat-label">Langages maîtrisés</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Curiosité</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--SECTION 3 — COMPÉTENCES
+       (Les barres sont animées via jQuery dans main.js)-->
+  <section id="skills">
+    <p class="section-label">// 02 — Ce que je sais faire</p>
+    <h2 class="section-title">Mes <em>compétences</em></h2>
+
+    <div class="skills-grid">
+
+      <!-- Compétences techniques -->
+      <div class="skills-col">
+        <h3>Techniques</h3>
+
+        <div class="skill-item" data-pct="85">
+          <div class="skill-header">
+            <span class="skill-name">HTML / CSS</span>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+        </div>
+
+        <div class="skill-item" data-pct="75">
+          <div class="skill-header">
+            <span class="skill-name">JavaScript / jQuery</span>
+            <span class="skill-pct">75%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+        </div>
+
+        <div class="skill-item" data-pct="65">
+          <div class="skill-header">
+            <span class="skill-name">C++</span>
+            <span class="skill-pct">65%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+        </div>
+
+        <div class="skill-item" data-pct="70">
+          <div class="skill-header">
+            <span class="skill-name">Python</span>
+            <span class="skill-pct">70%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+        </div>
+
+        <div class="skill-item" data-pct="60">
+          <div class="skill-header">
+            <span class="skill-name">Uml</span>
+            <span class="skill-pct">60%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+        </div>
+
+        <div class="skill-item" data-pct="70">
+          <div class="skill-header">
+            <span class="skill-name">SQL / Base de données</span>
+            <span class="skill-pct">70%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+        </div>
+      </div>
+
+      <!-- Compétences personnelles -->
+      <div class="skills-col">
+        <h3>Personnelles</h3>
+
+        <!-- ✏️ MODIFIER : Vos soft skills -->
+        <div class="tags-wrap">
+          <span class="tag">Travail en équipe</span>
+          <span class="tag">Curiosité</span>
+          <span class="tag">Rigueur</span>
+          <span class="tag">Créativité</span>
+          <span class="tag">Autonomie</span>
+          <span class="tag">Communication</span>
+          <span class="tag">Adaptabilité</span>
+          <span class="tag">Gestion du temps</span>
+          <span class="tag">Esprit critique</span>
+          <span class="tag">Résolution de problèmes</span>
+        </div>
+
+        <h3 style="margin-top:48px;">Langues</h3>
+       
+        <div class="skill-item" data-pct="100">
+          <div class="skill-header">
+            <span class="skill-name">Arabe</span>
+            <span class="skill-pct">Natif</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-item" data-pct="85">
+          <div class="skill-header">
+            <span class="skill-name">Français</span>
+            <span class="skill-pct">Courant</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-item" data-pct="65">
+          <div class="skill-header">
+            <span class="skill-name">Anglais</span>
+            <span class="skill-pct">Intermédiaire</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--SECTION 4 — FORMATION
+       (Accordéon interactif via jQuery dans main.js) -->
+  <section id="formation">
+    <p class="section-label">// 03 — Mon parcours</p>
+    <h2 class="section-title">Ma <em>formation</em></h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-header">
+          <div class="timeline-header-left">
+            <h4>Licence Science Informatique — L2</h4>
+            <p>Faculté de science semlalia </p>
+          </div>
+          <div>
+            <div class="timeline-date">2024 — présent</div>
+            <i class="fa-solid fa-chevron-down timeline-arrow"></i>
+          </div>
+        </div>
+        <div class="timeline-body">
+          <p>Formation approfondie en algorithmique, programmation en C et en programmation orientée objet. Acquisition de compétences solides en développement web, bases de données et réseaux informatiques. Étude des concepts de modélisation avec UML ainsi que des systèmes d’exploitation, notamment Linux, permettant une bonne compréhension du fonctionnement des systèmes et des architectures logicielles
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-header">
+          <div class="timeline-header-left">
+            <h4>Baccalauréat Sciences Mathématiques</h4> 
+          </div>
+          <div>
+            <div class="timeline-date">2021 — 2022</div>
+            <i class="fa-solid fa-chevron-down timeline-arrow"></i>
+          </div>
+        </div>
+        <div class="timeline-body">
+          <p>Formation axée sur les mathématiques et les sciences physiques, développant des compétences en raisonnement logique, analyse et résolution de problèmes, avec une bonne maîtrise des bases scientifiques.
+         </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--SECTION 5 — PROJETS (Composants React)->
+  <section id="projects">
+    <p class="section-label">// 04 — Ce que j'ai créé</p>
+    <h2 class="section-title">Mes <em>projets</em></h2>
+    <!-- React monte les cartes ici -->
+    <div id="react-projects"></div>
+  </section>
+
+  <!-SECTION 6 — CONTACT (Composant React)
+       ➜ Le formulaire React est dans components.jsx-->
+  <section id="contact">
+    <p class="section-label">// 05 — Me contacter</p>
+    <h2 class="section-title">Travaillons <em>ensemble</em></h2>
+    <div id="react-contact"></div>
+  </section>
+
+  <!-- ─── Footer ─── -->
+  <footer>
+  
+    Conçu &amp; développé par <span>Hajar Douki</span> · 2025
+  </footer>
+
+  <!-- ─── Vos scripts ─── -->
+ 
+  <!-- React components (type="text/babel" pour transpiler JSX) -->
+  <script type="text/babel" src="components.jsx"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <script src="main.js"></script>
+
+</body>
+</html>
