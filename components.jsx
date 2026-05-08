@@ -1,4 +1,4 @@
-// components.jsx - Composants React - CV Hajar Douki
+// components.jsx - Composants React 
 
 var PROJECTS_DATA = [
   {

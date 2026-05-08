@@ -1,6 +1,5 @@
-/* ═══════════════════════════════════════════════════════
-   main.js — Interactivité jQuery · CV Hajar Douki
-═══════════════════════════════════════════════════════ */
+/* main.js — Interactivité jQuery  */
+
 console.log("main.js chargé");
 
 $(document).ready(function () {

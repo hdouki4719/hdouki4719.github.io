@@ -14,22 +14,18 @@
   <!-- Votre fichier CSS -->
   <link rel="stylesheet" href="style.css"/>
 
-  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+  <!-- React -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
 </head>
 <body>
 
-  <!-- Décoration d'arrière-plan  -->
-  <div class="orb orb-1"></div>
-  <div class="orb orb-2"></div>
-  <div class="orb orb-3"></div>
 
   <!-- NAVIGATION -->
   <nav>
-    
     <div class="nav-logo">H<span>.</span>D</div>
     <ul class="nav-links">
       <li><a href="#about">À propos</a></li>
@@ -41,7 +37,7 @@
     <button class="nav-burger" id="burger"><i class="fa-solid fa-bars"></i></button>
   </nav>
 
-  <!--SECTION 1 — HERO (EN-TÊTE) -->
+  <!-- SECTION 1 — HERO -->
   <section id="hero">
     <div class="hero-text">
 
@@ -52,14 +48,13 @@
         <strong>Douki</strong>
       </h1>
 
-      <p class="hero-title">Étudiante en deuxième année Science Informatique</p>
+      <p class="hero-title">Étudiante en Troixième année Science Informatique</p>
 
-     
       <div class="hero-contacts">
-        <a href="doukihajar11@gmail.com" class="hero-contact-item">
+        <a href="mailto:doukihajar11@gmail.com" class="hero-contact-item">
           <i class="fa-solid fa-envelope"></i> doukihajar11@gmail.com
         </a>
-        <a href="https://www.linkedin.com/in/hajar-douki-027500374?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" class="hero-contact-item">
+        <a href="https://www.linkedin.com/in/hajar-douki-027500374" target="_blank" class="hero-contact-item">
           <i class="fa-brands fa-linkedin"></i> LinkedIn
         </a>
         <a href="https://github.com/hdouki4719" target="_blank" class="hero-contact-item">
@@ -73,14 +68,7 @@
     <div class="hero-photo-wrap">
       <div class="hero-photo-deco"></div>
       <div class="hero-photo-frame">
-      
-          <img src="pic.jpeg" alt="ma photo">
-          <rect width="280" height="340" fill="#2d0b52"/>
-          <circle cx="140" cy="120" r="65" fill="#4a1175"/>
-          <ellipse cx="140" cy="310" rx="110" ry="85" fill="#4a1175"/>
-          <circle cx="140" cy="110" r="48" fill="#7c3aed" opacity="0.6"/>
-          <text x="140" y="185" text-anchor="middle" fill="#c084fc" font-size="14" font-family="DM Sans">Photo</text>
-        </svg>
+        <img src="pic.jpeg" alt="ma photo">
       </div>
     </div>
 
@@ -112,7 +100,6 @@
           des hackathons et m'initier aux nouvelles technologies. Mon objectif est d'intégrer
           une entreprise innovante où je pourrai allier créativité et rigueur technique.
         </p>
-
       </div>
 
       <div class="about-stats">
@@ -136,15 +123,12 @@
     </div>
   </section>
 
-  <!--SECTION 3 — COMPÉTENCES
-       (Les barres sont animées via jQuery dans main.js)-->
+  <!-- SECTION 3 — COMPÉTENCES -->
   <section id="skills">
     <p class="section-label">// 02 — Ce que je sais faire</p>
     <h2 class="section-title">Mes <em>compétences</em></h2>
 
     <div class="skills-grid">
-
-      <!-- Compétences techniques -->
       <div class="skills-col">
         <h3>Techniques</h3>
 
@@ -197,11 +181,8 @@
         </div>
       </div>
 
-      <!-- Compétences personnelles -->
       <div class="skills-col">
         <h3>Personnelles</h3>
-
-        <!-- ✏️ MODIFIER : Vos soft skills -->
         <div class="tags-wrap">
           <span class="tag">Travail en équipe</span>
           <span class="tag">Curiosité</span>
@@ -216,7 +197,7 @@
         </div>
 
         <h3 style="margin-top:48px;">Langues</h3>
-       
+
         <div class="skill-item" data-pct="100">
           <div class="skill-header">
             <span class="skill-name">Arabe</span>
@@ -239,12 +220,10 @@
           <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
         </div>
       </div>
-
     </div>
   </section>
 
-  <!--SECTION 4 — FORMATION
-       (Accordéon interactif via jQuery dans main.js) -->
+  <!-- SECTION 4 — FORMATION -->
   <section id="formation">
     <p class="section-label">// 03 — Mon parcours</p>
     <h2 class="section-title">Ma <em>formation</em></h2>
@@ -256,7 +235,7 @@
         <div class="timeline-header">
           <div class="timeline-header-left">
             <h4>Licence Science Informatique — L2</h4>
-            <p>Faculté de science semlalia </p>
+            <p>Faculté de science semlalia</p>
           </div>
           <div>
             <div class="timeline-date">2024 — présent</div>
@@ -264,8 +243,7 @@
           </div>
         </div>
         <div class="timeline-body">
-          <p>Formation approfondie en algorithmique, programmation en C et en programmation orientée objet. Acquisition de compétences solides en développement web, bases de données et réseaux informatiques. Étude des concepts de modélisation avec UML ainsi que des systèmes d’exploitation, notamment Linux, permettant une bonne compréhension du fonctionnement des systèmes et des architectures logicielles
-          </p>
+          <p>Formation approfondie en algorithmique, programmation en C et en programmation orientée objet. Acquisition de compétences solides en développement web, bases de données et réseaux informatiques. Étude des concepts de modélisation avec UML ainsi que des systèmes d'exploitation, notamment Linux.</p>
         </div>
       </div>
 
@@ -273,7 +251,7 @@
         <div class="timeline-dot"></div>
         <div class="timeline-header">
           <div class="timeline-header-left">
-            <h4>Baccalauréat Sciences Mathématiques</h4> 
+            <h4>Baccalauréat Sciences Mathématiques</h4>
           </div>
           <div>
             <div class="timeline-date">2021 — 2022</div>
@@ -281,42 +259,34 @@
           </div>
         </div>
         <div class="timeline-body">
-          <p>Formation axée sur les mathématiques et les sciences physiques, développant des compétences en raisonnement logique, analyse et résolution de problèmes, avec une bonne maîtrise des bases scientifiques.
-         </p>
+          <p>Formation axée sur les mathématiques et les sciences physiques, développant des compétences en raisonnement logique, analyse et résolution de problèmes, avec une bonne maîtrise des bases scientifiques.</p>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!--SECTION 5 — PROJETS (Composants React)->
+  <!-- SECTION 5 — PROJETS (Composants React) -->
   <section id="projects">
     <p class="section-label">// 04 — Ce que j'ai créé</p>
     <h2 class="section-title">Mes <em>projets</em></h2>
-    <!-- React monte les cartes ici -->
     <div id="react-projects"></div>
   </section>
 
-  <!-SECTION 6 — CONTACT (Composant React)
-       ➜ Le formulaire React est dans components.jsx-->
+  <!-- SECTION 6 — CONTACT (Composant React) -->
   <section id="contact">
     <p class="section-label">// 05 — Me contacter</p>
     <h2 class="section-title">Travaillons <em>ensemble</em></h2>
     <div id="react-contact"></div>
   </section>
 
-  <!-- ─── Footer ─── -->
+  <!-- Footer -->
   <footer>
-  
-    Conçu &amp; développé par <span>Hajar Douki</span> · 2025
+    Conçu &amp; développé par <span>Hajar Douki</span> · 2026
   </footer>
 
-  <!-- ─── Vos scripts ─── -->
- 
-  <!-- React components (type="text/babel" pour transpiler JSX) -->
   <script type="text/babel" src="components.jsx"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-   <script src="main.js"></script>
+  <script src="main.js"></script>
 
 </body>
 </html>
